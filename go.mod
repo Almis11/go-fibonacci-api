@@ -1,3 +1,3 @@
 module go-fibonacci-api
 
-go 1.24
+go 1.20
