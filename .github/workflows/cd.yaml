@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       image_ref:
-        description: 'Docker image (e.g. username/go-math-api:abc123)'
+        description: 'Docker image (e.g. username/go-fibonacci-api:abc123)'
         required: true
-        default: 'almisa/go-fibonacci-api:1.0.0'
+        default: 'almisa/go-fibonacci-api:16181ec'
       ec2_host:
         description: 'EC2 public IP or DNS'
         required: true
