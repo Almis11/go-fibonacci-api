@@ -6,13 +6,15 @@ on:
       image_ref:
         description: 'Docker image (e.g. username/go-math-api:abc123)'
         required: true
+        default: 'almisa/go-fibonacci-api:1.0.0'
       ec2_host:
         description: 'EC2 public IP or DNS'
         required: true
+        default: '18.198.26.149'
       ssh_username:
         description: 'EC2 SSH username (e.g. student01)'
         required: true
-        default: 'student01'
+        default: 'student'
 
 jobs:
   deploy:
